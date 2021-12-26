@@ -19,6 +19,6 @@ btnRegistrar.addEventListener('click', (e) => {
 
     usuarios.push(registroUsuario);
     localStorage.setItem('Usuarios', JSON.stringify(usuarios))
-
+    window.location.reload();
 })
 
